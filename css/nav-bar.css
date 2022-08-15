@@ -1,0 +1,45 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+
+.status-bar {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav__notif {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+
+.nav__circle {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: flex;
+  color: tomato;
+  justify-content: center;
+  align-items: center;
+  font-size: 1px;
+  position: absolute;
+  left: 30px;
+}

@@ -1,26 +1,24 @@
+@import "reset.css";
+@import "variables.css";
+
+/*components*/
+@import "status-bar.css";
+@import "nav-bar.css";
+@import "screen-header.css";
+@import "user-component.css";
+@import "badge.css";
+/*screens*/
+@import "login.css";
+@import "friends.css";
+@import "find.css";
+@import "icon-row.css";
+@import "more.css";
+
 body {
+  color: #2e363e;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 1000vh;
 }
-
-.status-bar {
-  display: flex;
-  justify-content: center;
-}
-
-.status-bar__column {
-  width: 33%;
-}
-
-.status-bar__column:nth-child(2) {
-  display: flex;
-  justify-content: center;
-}
-.status-bar__column:last-child {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.status-bar__column:first-child span {
-  margin-right: 5px;
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
